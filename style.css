@@ -1,0 +1,163 @@
+body{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#container{
+
+height: 450px;
+width: 300px;
+background-color: black;
+border-radius: 20px;
+}
+
+.display{
+
+    background-color: white;
+    height: 70px;
+    width: 280px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: auto;
+    border-radius: 12px;
+    background-color: darkcyan;
+  position: relative;
+ 
+
+}
+
+.num-display{
+
+    position: absolute;
+    bottom: 7;
+    right: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+
+}
+
+
+
+button{
+
+   
+    border-radius: 50%;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+ font-size: larger;
+ font-weight: 800;
+}
+.button-container{
+
+    width: 280px;
+      display: flex;
+       margin-top: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: auto;
+      border-radius: 12px
+      
+      
+      }
+      .number-cont{
+      
+          display: flex;
+          flex-wrap: wrap;
+      
+      }
+      
+      .operator-cont{
+      
+      display: flex;
+      flex-direction: column;
+      
+      }
+      .buttons-number{
+      
+      height: 80px;
+          width: 70px;
+          background-color: gray;
+          border: 1px solid black;
+          transition: all 0.2s ease-in-out;
+      
+      }
+
+      .buttons-number:hover{
+
+        background-color: pink;
+        color: whitesmoke;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px);
+      }
+      
+      .buttons-operator{
+      
+      height:80px;
+          width: 60px;
+          background-color: goldenrod;
+          border: 1px solid black;
+          transition: all 0.2s ease-in-out;
+      
+      }
+      .buttons-operator:hover{
+        background-color: #e7713a;
+        color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px);
+      
+      }
+
+      .clear{
+            
+      height: 80px;
+      width: 70px;
+      background-color: gray;
+      border: 1px solid black;
+      transition: all 0.2s ease-in-out;
+  
+            
+      }
+      .clear:hover{
+        background-color: pink;
+        color: whitesmoke;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px)
+
+
+      }
+
+      .equal-to{
+
+        height: 80px;
+        width: 70px;
+        background-color: gray;
+        border: 1px solid black;
+        transition: all 0.2s ease-in-out;
+    
+
+      }
+      .equal-to:hover{
+        background-color: pink;
+        color: whitesmoke;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px)
+
+
+
+
+      }
+
+
+      .calculation {
+
+        background-color: pink;
+        color: whitesmoke;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px)
+
+
+
+      }
